@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lassure Real State</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script><link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-    <div class="container">
+    <div id="app" class="container">
         <div id="navbar">
-        <navbar>
+<!--         <navbar>
             <!-- Componente header -->
-        </navbar>
+        </navbar> -->
         </div>
         <div id="banner">
+            <carrusel></carrusel>
             <!-- componente banner -->
         </div>
         <div id="suscripción">
@@ -30,8 +34,15 @@
         <!-- footer hecho en el html -->
         </div>
     </div>
+    
     <script src="assets/js/header.js"></script>
     <script src="assets/js/banner.js"></script>
     <script src="assets/js/tarjetas.js"></script>
+
+    <script>
+        new Vue({
+            el: "#app",
+        });
+    </script>
 </body>
 </html>
