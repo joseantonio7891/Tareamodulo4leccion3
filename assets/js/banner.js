@@ -21,11 +21,11 @@ Vue.component('carrusel',{
     
     data(){
         return {
-        imagenes: [{
-
-            src: '/assets/img/cabañamontaña1.jpg',
+        imagenes: [
+            
+            {src: '/assets/img/cabañamontaña1.jpg',
             clase: "active"},
-
+            
             {src: '/assets/img/deptosportada.jpg',
             clase: ""},
             
