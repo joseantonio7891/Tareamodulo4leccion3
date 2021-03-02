@@ -1,7 +1,6 @@
 Vue.component('carrusel',{
 
     template:
-
     `<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner" >
             <div v-for="imagen in imagenes" class="carousel-item" v-bind:class="imagen.clase">
@@ -21,11 +20,11 @@ Vue.component('carrusel',{
     
     data(){
         return {
-        imagenes: [{
-
-            src: '/assets/img/cabañamontaña1.jpg',
+        imagenes: [
+            
+            {src: '/assets/img/cabañamontaña1.jpg',
             clase: "active"},
-
+            
             {src: '/assets/img/deptosportada.jpg',
             clase: ""},
             
